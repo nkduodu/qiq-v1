@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QiQ – API</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>QiQ Public API</h1>
+
+      <nav>
+        <a href="./index.html">App</a> |
+        <a href="./pricing.html">Pricing</a> |
+        <a href="./dashboard.html">Dashboard</a>
+      </nav>
+
+      <select id="lang-toggle">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+      </select>
+    </header>
+
+    <main class="main">
+      <section class="quote-section">
+        <h2>Overview</h2>
+        <p>Use the QiQ API to access curated Ghana insurance products.</p>
+        <p>Base URL: <code>https://YOUR_DOMAIN/api</code></p>
+      </section>
+
+      <section class="quote-section">
+        <h2>Endpoints</h2>
+
+        <h3>List products</h3>
+        <pre>GET /api/products?type=auto&amp;role=insurer
+Header: x-api-key: YOUR_KEY</pre>
+
+        <h3>Stats</h3>
+        <pre>GET /api/stats
+Header: x-api-key: YOUR_KEY</pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
