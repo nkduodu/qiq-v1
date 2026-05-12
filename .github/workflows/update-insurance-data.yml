@@ -1,1 +1,40 @@
+name: Update Insurance Data
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # Runs daily at 02:00 UTC
+  workflow_dispatch:       # Allow manual run
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scraper pipeline
+        run: node scrapers/runAll.js
+
+      - name: Save history snapshot
+        run: |
+          mkdir -p data/history
+          cp data/curated/insurance-products.json \
+             data/history/insurance-products-$(date +'%Y-%m-%d').json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "qiq-bot"
+          git config --global user.email "bot@qiq.local"
+          git add .
+          git commit -m "Daily data update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
 
