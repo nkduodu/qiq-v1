@@ -1,0 +1,15 @@
+{
+  "name": "qiq-v1",
+  "version": "1.0.0",
+  "description": "QiQ – Quick Insurance Quotes for Ghana",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev",
+    "scrape": "node scrapers/runAll.js",
+    "curate": "node scripts/curate.js",
+    "diff": "node scripts/diff.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
