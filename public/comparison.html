@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QiQ – Brokers vs Insurers</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <h1>Broker vs Insurer Comparison</h1>
+        <p>Side‑by‑side view of Ghana insurance products</p>
+      </div>
+
+      <div>
+        <a href="./index.html">App</a> |
+        <a href="./dashboard.html">Dashboard</a>
+
+        <select id="lang-toggle">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="main" style="grid-template-columns: 1fr 1fr;">
+      <section class="quote-section">
+        <h2>Insurers</h2>
+        <div id="insurer-list" class="chat-window"></div>
+      </section>
+
+      <section class="quote-section">
+        <h2>Brokers</h2>
+        <div id="broker-list" class="chat-window"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./comparison.js"></script>
+</body>
+</html>
