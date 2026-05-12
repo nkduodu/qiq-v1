@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QiQ – Quick Insurance Quotes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <h1>QiQ</h1>
+        <p data-i18n="heroSubtitle">Quick Insurance Quotes for Ghana</p>
+      </div>
+
+      <nav>
+        <a href="./pricing.html" data-i18n="navPricing">Pricing</a>
+        <a href="./dashboard.html" data-i18n="navDashboard">Dashboard</a>
+        <a href="./api.html" data-i18n="navApi">API</a>
+      </nav>
+
+      <select id="lang-toggle">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+      </select>
+    </header>
+
+    <main class="main">
+      <section class="chat-section">
+        <div id="chat-window" class="chat-window"></div>
+
+        <div class="chat-input">
+          <input id="user-input" type="text" data-i18n-placeholder="inputPlaceholder">
+          <button id="send-btn" data-i18n="send">Send</button>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <h2 data-i18n="quotesTitle">Your Quotes</h2>
+        <div id="quotes"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
