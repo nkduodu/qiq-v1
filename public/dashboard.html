@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QiQ – Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <h1>QiQ Dashboard</h1>
+        <p>Ghana Insurance Products – Internal View</p>
+      </div>
+
+      <div>
+        <a href="./index.html">App</a> |
+        <a href="./pricing.html">Pricing</a> |
+        <a href="./api.html">API</a>
+
+        <select id="lang-toggle">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="quote-section">
+        <h2>Summary</h2>
+        <div id="kpis"></div>
+
+        <h3>Filters</h3>
+        <div>
+          <label>Insurer:</label>
+          <select id="filter-insurer">
+            <option value="">All</option>
+          </select>
+
+          <label>Type:</label>
+          <select id="filter-type">
+            <option value="">All</option>
+            <option value="auto">Auto</option>
+            <option value="home">Home</option>
+            <option value="life">Life</option>
+            <option value="health">Health</option>
+          </select>
+
+          <label>Role:</label>
+          <select id="filter-role">
+            <option value="">All</option>
+            <option value="insurer">Insurer</option>
+            <option value="broker">Broker</option>
+          </select>
+        </div>
+
+        <h3>Search</h3>
+        <input id="search-bar" type="text" placeholder="Search products..." style="width:100%;padding:0.5rem;border-radius:8px;">
+
+        <h3>Trends</h3>
+        <canvas id="trendChart" height="120"></canvas>
+      </section>
+
+      <section class="chat-section">
+        <h2>Latest Products</h2>
+        <div id="products-list" class="chat-window"></div>
+
+        <h2>Daily Changes</h2>
+        <div id="diff-container" class="chat-window"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./dashboard.js"></script>
+</body>
+</html>
