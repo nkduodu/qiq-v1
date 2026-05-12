@@ -1,0 +1,23 @@
+[build]
+  functions = "functions"
+  publish = "public"
+
+[[redirects]]
+  from = "/api/chatbot"
+  to = "/.netlify/functions/chatbot"
+  status = 200
+
+[[redirects]]
+  from = "/api/getQuotes"
+  to = "/.netlify/functions/getQuotes"
+  status = 200
+
+[[redirects]]
+  from = "/api/products"
+  to = "/.netlify/functions/api_products"
+  status = 200
+
+[[redirects]]
+  from = "/api/stats"
+  to = "/.netlify/functions/api_stats"
+  status = 200
