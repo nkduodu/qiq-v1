@@ -1,1 +1,12 @@
-public/i18n/fr.json
+{
+  "splashTagline": "Devis d’assurance rapides pour le Ghana — Rapide. Intelligent. Fiable.",
+  "enterQiQ": "Entrer dans QiQ",
+  "heroSubtitle": "Devis d’assurance rapides pour le Ghana",
+  "navPricing": "Tarification",
+  "navDashboard": "Tableau de bord",
+  "navApi": "API",
+  "inputPlaceholder": "Tapez votre message...",
+  "send": "Envoyer",
+  "quotesTitle": "Vos devis",
+  "welcome": "Bienvenue sur QiQ ! Auto, Maison, Vie ou Santé ?"
+}
