@@ -1,0 +1,65 @@
+[
+  {
+    "insurer": "Star Assurance",
+    "product": "Star Motor Comprehensive",
+    "type": "auto",
+    "role": "insurer",
+    "description": "Full comprehensive motor insurance for private vehicles.",
+    "link": "https://starassurance.com",
+    "tenantId": null
+  },
+  {
+    "insurer": "Star Assurance",
+    "product": "Star Home Protection",
+    "type": "home",
+    "role": "insurer",
+    "description": "Home insurance covering fire, flood, burglary and more.",
+    "link": "https://starassurance.com",
+    "tenantId": null
+  },
+  {
+    "insurer": "Enterprise Insurance",
+    "product": "Enterprise Motor Third Party",
+    "type": "auto",
+    "role": "insurer",
+    "description": "Third‑party motor insurance for private and commercial vehicles.",
+    "link": "https://enterprisegroup.net.gh",
+    "tenantId": null
+  },
+  {
+    "insurer": "Enterprise Life",
+    "product": "LifeTime Plan",
+    "type": "life",
+    "role": "insurer",
+    "description": "Affordable life insurance with flexible premiums.",
+    "link": "https://enterprisegroup.net.gh",
+    "tenantId": null
+  },
+  {
+    "insurer": "Hollard",
+    "product": "Hollard Health OPD",
+    "type": "health",
+    "role": "insurer",
+    "description": "Health insurance covering OPD and basic inpatient services.",
+    "link": "https://hollard.com.gh",
+    "tenantId": null
+  },
+  {
+    "insurer": "KEK Brokers",
+    "product": "KEK Auto Broker Plan",
+    "type": "auto",
+    "role": "broker",
+    "description": "Broker‑negotiated auto insurance with competitive pricing.",
+    "link": "https://kekbrokers.com",
+    "tenantId": null
+  },
+  {
+    "insurer": "KEK Brokers",
+    "product": "KEK Home Essentials",
+    "type": "home",
+    "role": "broker",
+    "description": "Home insurance bundle negotiated through KEK Brokers.",
+    "link": "https://kekbrokers.com",
+    "tenantId": null
+  }
+]
