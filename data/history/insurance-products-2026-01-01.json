@@ -1,0 +1,20 @@
+[
+  {
+    "insurer": "Star Assurance",
+    "product": "Star Motor Comprehensive",
+    "type": "auto",
+    "role": "insurer",
+    "description": "Full comprehensive motor insurance for private vehicles.",
+    "link": "https://starassurance.com",
+    "tenantId": null
+  },
+  {
+    "insurer": "Enterprise Insurance",
+    "product": "Enterprise Motor Third Party",
+    "type": "auto",
+    "role": "insurer",
+    "description": "Third‑party motor insurance for private and commercial vehicles.",
+    "link": "https://enterprisegroup.net.gh",
+    "tenantId": null
+  }
+]
