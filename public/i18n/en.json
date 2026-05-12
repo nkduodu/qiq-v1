@@ -1,1 +1,12 @@
-public/i18n/en.json
+{
+  "splashTagline": "Quick Insurance Quotes for Ghana — Fast. Smart. Reliable.",
+  "enterQiQ": "Enter QiQ",
+  "heroSubtitle": "Quick Insurance Quotes for Ghana",
+  "navPricing": "Pricing",
+  "navDashboard": "Dashboard",
+  "navApi": "API",
+  "inputPlaceholder": "Type your message...",
+  "send": "Send",
+  "quotesTitle": "Your Quotes",
+  "welcome": "Welcome to QiQ! Auto, Home, Life or Health?"
+}
