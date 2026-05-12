@@ -1,1 +1,8 @@
+functions/
+│
+├── chatbot.js
+├── getQuotes.js
+├── api_products.js
+├── api_stats.js
+└── pricing.js
 
