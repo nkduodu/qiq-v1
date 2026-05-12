@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QiQ – Pricing</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>QiQ Pricing (GHS)</h1>
+
+      <nav>
+        <a href="./index.html">App</a> |
+        <a href="./dashboard.html">Dashboard</a> |
+        <a href="./api.html">API</a>
+      </nav>
+
+      <select id="lang-toggle">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+      </select>
+    </header>
+
+    <main class="main" style="grid-template-columns: 1fr 1fr 1fr;">
+      <section class="quote-section">
+        <h2>Free</h2>
+        <p><strong>GHS 0 / month</strong></p>
+        <ul>
+          <li>100 API calls/day</li>
+          <li>24h delayed data</li>
+          <li>No analytics</li>
+        </ul>
+      </section>
+
+      <section class="quote-section">
+        <h2>Pro</h2>
+        <p><strong>GHS 499 / month</strong></p>
+        <ul>
+          <li>10,000 API calls/day</li>
+          <li>Real‑time data</li>
+          <li>Tenant filtering</li>
+          <li>Analytics + diff</li>
+        </ul>
+      </section>
+
+      <section class="quote-section">
+        <h2>Enterprise</h2>
+        <p><strong>GHS 4,999 / month</strong></p>
+        <ul>
+          <li>Unlimited API calls</li>
+          <li>Custom dashboards</li>
+          <li>Webhooks + SLA</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
